@@ -1,0 +1,33 @@
+using System;
+namespace Bai3_3
+{
+    class Program
+    {
+        enum T
+        {
+            T1 = 31, T2 = 28, T3 = 31, T4 = 30, T5 = 31, T6 = 30, T7 = 31, T8 = 31, T9 = 30, T10 = 31, T11 = 30, T12 = 31
+        }
+        static void Main(string[] args)
+        {
+            int thang;
+            Console.Write("Nhap vao so thang:");
+            thang=Convert.ToInt32(Console.ReadLine());
+            if (thang == 1) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T1}"); }
+            if (thang == 2) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T2}"); }
+            if (thang == 3) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T3}"); }
+            if (thang == 4) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T4}"); }
+            if (thang == 5) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T5}"); }
+            if (thang == 6) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T6}"); }
+            if (thang == 7) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T7}"); }
+            if (thang == 8) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T8}"); }
+            if (thang == 9) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T9}"); }
+            if (thang == 10) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T10}"); }
+            if (thang == 11) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T11}"); }
+            if (thang == 12) { Console.WriteLine($"Ngay cuoi cung cua thang la {(int)T.T12}"); }
+
+
+
+
+        }
+    }
+}
